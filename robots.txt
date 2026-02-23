@@ -1,0 +1,8 @@
+# Robots.txt for Freelance Rate Calculator
+# Allow all crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://larrys-world.github.io/freelance-rate-calculator/sitemap.xml
