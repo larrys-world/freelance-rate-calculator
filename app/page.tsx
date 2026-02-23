@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import AdSense from '../components/AdSense'
 
 export default function FreelanceRateCalculator() {
   const [desiredSalary, setDesiredSalary] = useState(75000)
@@ -39,6 +40,9 @@ export default function FreelanceRateCalculator() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
+        {/* Top Ad */}
+        <AdSense slot="top-banner" format="horizontal" className="mb-6" />
+        
         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-700 px-6 py-8">
             <h1 className="text-3xl font-bold text-white">Freelance Rate Calculator</h1>
@@ -93,6 +97,9 @@ export default function FreelanceRateCalculator() {
                 </div>
               </div>
             </div>
+            
+            {/* Mid-content Ad */}
+            <AdSense slot="mid-content" format="rectangle" />
             
             {/* Time Off */}
             <div>
@@ -198,6 +205,9 @@ export default function FreelanceRateCalculator() {
                 </div>
               </div>
             </div>
+            
+            {/* Bottom Ad */}
+            <AdSense slot="bottom-content" format="rectangle" />
             
             {/* Disclaimer */}
             <div className="bg-yellow-50 border border-yellow-200 rounded-md p-4">
