@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove static export for Vercel deployment
-  // output: 'export',
+  // Enable static export for GitHub Pages
+  output: 'export',
   images: {
     unoptimized: true
   },
-  // Remove GitHub Pages specific config
-  // basePath: process.env.NODE_ENV === 'production' ? '/freelance-rate-calculator' : '',
-  // assetPrefix: process.env.NODE_ENV === 'production' ? '/freelance-rate-calculator' : ''
+  // GitHub Pages specific config
+  basePath: process.env.NODE_ENV === 'production' ? '/freelance-rate-calculator' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/freelance-rate-calculator' : ''
 }
 
 module.exports = nextConfig
