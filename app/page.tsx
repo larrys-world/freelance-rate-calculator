@@ -49,6 +49,9 @@ export default function FreelanceRateCalculator() {
         {/* Top Ad */}
         <AdSense slot="top-banner" format="horizontal" className="mb-6" />
         
+        {/* Breadcrumbs */}
+        <Breadcrumbs />
+        
         <div className="bg-white shadow-xl rounded-lg overflow-hidden">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-700 px-6 py-8">
             <h1 className="text-3xl font-bold text-white">Freelance Rate Calculator</h1>
