@@ -6,6 +6,7 @@ import BuyMeACoffee from '../components/BuyMeACoffee'
 import FAQ from '../components/FAQ'
 import Breadcrumbs from '../components/Breadcrumbs'
 import PremiumResources from '../components/PremiumResources'
+import RelatedTools from '../components/RelatedTools'
 import EmailCapture from '../components/EmailCapture'
 
 export default function FreelanceRateCalculator() {
@@ -222,6 +223,9 @@ export default function FreelanceRateCalculator() {
             
             {/* Support Section */}
             <BuyMeACoffee />
+            
+            {/* Related Tools - NEW SECTION */}
+            <RelatedTools />
             
             {/* FAQ Section */}
             <FAQ />
