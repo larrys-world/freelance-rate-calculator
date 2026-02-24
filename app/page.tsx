@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import AdSense from '../components/AdSense'
 import BuyMeACoffee from '../components/BuyMeACoffee'
+import FAQ from '../components/FAQ'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 export default function FreelanceRateCalculator() {
   const [desiredSalary, setDesiredSalary] = useState(75000)

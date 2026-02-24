@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import AdSense from '../components/AdSense'
+import BuyMeACoffee from '../components/BuyMeACoffee'
 
 export default function FreelanceRateCalculator() {
   const [desiredSalary, setDesiredSalary] = useState(75000)
@@ -209,8 +210,10 @@ export default function FreelanceRateCalculator() {
             {/* Bottom Ad */}
             <AdSense slot="bottom-content" format="rectangle" />
             
-            {/* Disclaimer */}
-            <div className="bg-yellow-50 border border-yellow-200 rounded-md p-4">
+            {/* Support Section */}
+            <BuyMeACoffee />
+            
+            {/* Disclaimer */}            <div className="bg-yellow-50 border border-yellow-200 rounded-md p-4">
               <p className="text-xs text-yellow-800">
                 <strong>Disclaimer:</strong> This calculator provides estimates only. Tax rates vary significantly by location, filing status, and income level. 
                 Consult with a tax professional for accurate tax planning. The calculator does not account for all possible deductions, credits, or business structures.
