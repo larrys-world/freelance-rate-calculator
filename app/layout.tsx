@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Freelance Rate Calculator - Calculate Your Hourly Rate | Free Tool',
-  description: 'Free freelance rate calculator to determine your ideal hourly rate. Factor in salary goals, expenses, taxes, vacation time, and non-billable hours. Used by 10,000+ freelancers.',
+  description: 'Stop undercharging! Calculate your perfect freelance rate in 30 seconds. Factor in ALL costs & taxes. Join 10,000+ freelancers earning what they deserve →',
   keywords: 'freelance rate calculator, hourly rate calculator, freelance pricing, contractor rate calculator, consulting rate calculator, freelance hourly rate, how much to charge freelance, freelance pricing guide',
   openGraph: {
     title: 'Freelance Rate Calculator - Find Your Perfect Hourly Rate',
-    description: 'Calculate your ideal freelance hourly rate based on salary goals, expenses, and time off. Free tool used by thousands of freelancers.',
+    description: 'Stop undercharging! Calculate your perfect freelance rate in 30 seconds. Join 10,000+ freelancers earning more →',
     type: 'website',
     url: 'https://larrys-world.github.io/freelance-rate-calculator/',
     siteName: 'Freelance Rate Calculator',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Freelance Rate Calculator - Find Your Perfect Hourly Rate',
-    description: 'Calculate your ideal freelance hourly rate based on salary goals and expenses.',
+    description: 'Calculate your perfect freelance rate in 30 seconds. Stop undercharging today →',
     images: ['https://larrys-world.github.io/freelance-rate-calculator/og-image.png']
   },
   alternates: {
@@ -53,7 +53,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebApplication',
   name: 'Freelance Rate Calculator',
-  description: 'Calculate your ideal freelance hourly rate based on salary goals, expenses, taxes, and time off.',
+  description: 'Stop undercharging! Calculate your perfect freelance rate in 30 seconds. Factor in ALL costs & taxes.',
   url: 'https://larrys-world.github.io/freelance-rate-calculator/',
   applicationCategory: 'FinanceApplication',
   operatingSystem: 'Any',
